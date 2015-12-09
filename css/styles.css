@@ -136,6 +136,16 @@ html, body {
   opacity: 0.9;
 }
 
+#pic7 {
+  background-color: white;
+  top: -6%;
+  opacity: 0.5;
+}
+
+#pic7:hover {
+  opacity: 0.9;
+}
+
 #pic3 {
   background-image: url(../img/img3.png);
   background-repeat: no-repeat;
@@ -206,12 +216,14 @@ html, body {
 /* Resume Page */
 
 .resume {
-  width: 1352px;
-  height: 1748px;
+  width: 900px;
+  height: 1300px;
   margin: 0 auto;
-  background-image: url(../img/resume.png);
+  background-image: url(../img/resume.jpeg);
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
+
 
 
 
