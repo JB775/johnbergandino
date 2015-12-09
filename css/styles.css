@@ -1,0 +1,218 @@
+/* General Body of Page */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+}
+ 
+ /* wrapper */
+.wrapper {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Growing Links */
+.hvr-grow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+}
+
+.hvr-grow:hover, .hvr-grow:focus, .hvr-grow:active {
+  -webkit-transform: scale(1.13);
+  transform: scale(1.13);
+}
+
+/* Header Bar */
+.top-bar {
+  position: fixed;
+  z-index: 998;
+  width: 100%;
+  height: 30px;
+  background-color: #66FF66;
+}
+
+/* Side Bars */
+.left-bar {
+  position: fixed;
+  right: 0;
+  z-index: 999;
+  height: 100%;
+  width: 20px;
+  background-color: #66FF66;
+}
+
+.right-bar {
+  position: fixed;
+  left: 0;
+  z-index: 999;
+  height: 100%;
+  width: 20px;
+  background-color: #66FF66;
+}
+
+/* Footer Bar  */
+
+.footer-bar {
+  position: fixed;
+  bottom: 0;
+  z-index: 998;
+  width: 100%;
+  height: 30px;
+  background-color: #66FF66;
+  padding-left: 35%;
+  padding-right: 35%;
+}
+
+.footer-bar img {
+  width: 1.5%;
+  margin: 0% 4%; 
+  padding-top: 4px;
+}
+
+/*Main Page Effects*/
+
+.big-box {
+  margin-left: -25%;
+  width: 150%;
+  height: 100%;
+  display: flex;
+  font-family: HelveticaNeue;
+  font-size: 18px;
+  color: #fff;
+  flex-direction: row;
+  overflow: hidden;
+
+}
+
+.child {
+  position: relative;
+  top: -15%;
+  height: 200%;
+  flex-grow: 1;
+  transform: rotate(18deg);
+}
+
+#pic1 {
+  background-image: url(../img/img1.png);
+  background-repeat: no-repeat;
+  background-color: white;
+  top: 0;
+  left: 10%;
+  opacity: 0.6;
+}
+
+#pic1:hover {
+  opacity: 1;
+}
+
+#pic1:hover {
+  top: 4%;
+  left: 14%;
+}
+
+#pic2 {
+  background-image: url(../img/img2.png);
+  background-repeat: no-repeat;
+  background-color: white;
+  top: -6%;
+  opacity: 0.5;
+}
+
+#pic2:hover {
+  opacity: 0.9;
+}
+
+#pic3 {
+  background-image: url(../img/img3.png);
+  background-repeat: no-repeat;
+  background-color: white;
+  left: 5%;
+  top: -5%;
+  opacity: 0.6;
+}
+
+#pic3:hover {
+  opacity: 1;
+}
+
+#pic4 {
+  background-image: url(../img/github.png);
+  background-repeat: no-repeat;
+  background-color: white;
+  top: -1%;
+  left: 3%;
+  opacity: 0.7;
+}
+
+#pic4:hover {
+  opacity: 1;
+}
+
+#pic5 {
+  background-image: url(../img/img5.png);
+  background-repeat: no-repeat;
+  background-color: white;
+  opacity: 0.5;
+  top: 5%;
+  right: 1%;
+  -webkit-transition: all 1s ease;
+   -moz-transition: all 1s ease;
+     -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+        transition: all 1s ease;
+  -webkit-filter: blur(0.5px);
+}
+
+#pic5:hover {
+    -webkit-filter: blur(0px);
+    opacity: 0.9;
+}
+
+.child:hover {
+    flex-grow: 1.6;
+    top: -13.8%;
+  }
+
+.child {
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  -o-transition: all 0.4s ease;
+  -ms-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+}
+
+.child {
+  filter: contrast(100%);
+  -webkit-filter: contrast(100%);
+  -moz-filter: contrast(100%);
+  -o-filter: contrast(100%);
+  -ms-filter: contrast(100%);
+}
+
+/* Resume Page */
+
+.resume {
+  width: 1352px;
+  height: 1748px;
+  margin: 0 auto;
+  background-image: url(../img/resume.png);
+  background-repeat: no-repeat;
+}
+
+
+
+
